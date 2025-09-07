@@ -11,19 +11,21 @@ And I can help you create music.
 
 Let's produce the sound Note A (440 hz) which plays for 2 seconds.
 
-## First, what do you mean by a sound of frequency 440 hz?
+## What do we mean by a sound of frequency 440 Hz?
 
-It's air particles moving back and forth around an equilibrium point due to change in pressure. If this back and forth happens 440 times in a second, we say it has a frequency of 440 hz.
+It's air particles moving back and forth around an equilibrium point due to pressure variations. If this back and forth happens 440 times in one second, we say it has a **frequency of 440 Hz**.
 
 Our ears have complex machinery to sense this back and forth motion and our mind invents (hallucinates) the sensation of sound.
 
-Intuitively, a sound of higher frequency has higher pitch i.e. it sounds sharper than a sound of lower frequency/pitch which is smoother.
+Intuitively:  
+- Higher frequency -> Higher pitch (sharper sound)
+- Lower frequency -> Lower pitch (smoother sound)
 
-## Second, a Computer and a Pressure Difference Generator
+## A Computer and a Pressure Difference Generator
 
 we need a device which can create this back and forth disturbance in air through pressure differences. Luckily, we have those all around us such as speakers in our phones and laptops.
 
-## Third, the methodology
+## The Methodology
 
 A back and forth repeating pattern can be described using a function that is periodic. One of these functions that we can use is sine.
 
@@ -31,9 +33,14 @@ We can represent a sound wave with an equation involving sine function,
 
 $$Y = A \sin\left(2 \pi f t\right)$$
 
-where, we multiply the period by frequency $f$ to include all the $f * t$ cycles.
+where,
+  - $A = $ Amplitude (loudness)
+  - $f = $ Frequency (cycles per second, Hz)
+  - $t = $ Time (seconds)
 
-We need some additional concepts to actually be able to have all the points on Y axis across all the $f * t$ cycles. As computers are digital machins and work on descrete points instead of continuous, we introduce a concept "sample rate" (s) to represent the number of points on time axis per second.
+we multiply the period by frequency $f$ to include all the $f * t$ cycles.
+
+We need some additional concepts to actually be able to have all the points on Y axis across all the $f * t$ cycles. As computers are digital machines and work on discrete points instead of continuous, we introduce a concept "sample rate" (s) to represent the number of points on time axis per second.
 
 One commonly used value for sample rate is 44100, which is the standard sampling frequency for audio CDs. Let's define,
 
@@ -49,7 +56,7 @@ $$
 $$
 
 
-Now, we can have Y for all the 44,100 values of time axis for each second. This can done by following code snippet (C++):
+Now, we can have Y for all the 44,100 values of time axis for each second. This can be done by following code snippet (C++):
 
 **Imports**
 
