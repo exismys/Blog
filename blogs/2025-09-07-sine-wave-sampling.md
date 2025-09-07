@@ -45,7 +45,7 @@ $$
 y[n] = \sin\left( 2 \pi f \frac{n}{F_s} \right), \quad n = 0, 1, 2, \dots, N-1
 $$
 $$
-\text{where, } F_s = 44100, \; N = 2 \cdot F_s = 88200
+\text{where, } F_s = 44,100; N = 2 \cdot F_s = 88,200
 $$
 
 
