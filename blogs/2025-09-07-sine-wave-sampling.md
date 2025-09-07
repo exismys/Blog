@@ -34,9 +34,9 @@ We can represent a sound wave with an equation involving sine function,
 $$Y = A \sin\left(2 \pi f t\right)$$
 
 where,
-  - $A = $ Amplitude (loudness)
-  - $f = $ Frequency (cycles per second, Hz)
-  - $t = $ Time (seconds)
+  - $A =$ Amplitude (loudness)
+  - $f =$ Frequency (cycles per second, Hz)
+  - $t =$ Time (seconds)
 
 we multiply the period by frequency $f$ to include all the $f * t$ cycles.
 
