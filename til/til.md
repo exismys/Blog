@@ -1,3 +1,12 @@
+## 2025-09-08
+**Configuring C++ code run in VS code:** I was facing an issue with running C++ code in VS code through code run button because it was using `gcc` as a compiler. I could change this in `.vscode/tasks.json` to specific `g++` instead.
+
+Of course I had to modify `.gitignore` after ignore all `.vscose` except that one specific file.
+
+`.gitignore` entry:
+`.vscode/*`
+`!.vscode/tasks.json`
+
 ## 2025-09-07
 **URL Hash based routing:** This is actually very interesting, saves you load time switching between pages.
 
