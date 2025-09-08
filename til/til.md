@@ -1,7 +1,9 @@
 ## 2025-09-08
-**Configuring C++ code run in VS code:** I was facing an issue with running C++ code in VS code through code run button because it was using `gcc` as a compiler. I could change this in `.vscode/tasks.json` to specific `g++` instead.
+**Overloading [] operator in C++:** two varients, `double& operator[](int i);` and `double operator[](int i) const;`. First one returns a reference to actual data member to which we can assign some value. Second one only works when called on a const object and returns just a value. Makes sense, can't assign a value to a value.
 
-Of course I had to modify `.gitignore` after ignore all `.vscose` except that one specific file.
+**Configuring C++ code run in VS code:** I was facing an issue with running C++ code in VS code through code run button because it was using `gcc` as a compiler. I could change this in `.vscode/tasks.json` to use `g++` instead.
+
+Of course, I had to modify `.gitignore` after to ignore all `.vscode` except that one specific file.
 
 `.gitignore` entry:
 `.vscode/*`
