@@ -1,3 +1,6 @@
+## 2025-09-14
+**Geometric interpretation of inverse matrix A^-1:** In essence, it's a transformation applied on a transformed vector *V'* (by matrix *A*), so that V' transforms to original *V*. No transformation at all (A^-1 A).
+
 ## 2025-09-08
 **Overloading [] operator in C++:** two varients, `double& operator[](int i);` and `double operator[](int i) const;`. First one returns a reference to actual data member to which we can assign some value. Second one only works when called on a const object and returns just a value. Makes sense, can't assign a value to a value.
 
