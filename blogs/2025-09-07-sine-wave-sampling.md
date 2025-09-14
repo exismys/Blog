@@ -109,6 +109,6 @@ int playNote(double frequency, double duration) {
 
 ![Sine Wave Sampled](/assets/images/sine-wave-sampled)
 
-And there we have, a somewhat repeating/oscillating values for 88200 points, and so what our ear detects is the speed of oscillation and the sound we hear is interpretation of that motion.
+And there we have, a somewhat repeating/oscillating values for 88,200 points, and so what our ear detects is the speed of oscillation and the sound we hear is interpretation of that motion.
 
 Call it a hallucination of mind if you will (though a shared one).
