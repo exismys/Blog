@@ -1,3 +1,7 @@
+## 2025-09-25
+**Geometric interpretation of vector dot product:** Vector dot product can seen as "how much two vectors align with each other," i.e. how much they point in the same direction. A • B = |A||B| (cos of angle between them) can be interpreted as product of magnitude of vector A and the component vector B in the direction of A.
+Greater the result, greater the alignment. if they are perpendicular (cos of angle is 0), no alignment. If -ve, negative alignment, i.e. the component of one in the direction of other is negative.
+
 ## 2025-09-14
 **Geometric interpretation of inverse matrix A^-1:** In essence, it's a transformation applied on a transformed vector *V'* (by matrix *A*), so that V' transforms to original *V*. No transformation at all (A^-1 A).
 
