@@ -1,3 +1,6 @@
+## 2026-03-5
+**Energy: ** Key takeaways from studying physics from last few months — **energy** rn is not something that moves objects. it does not do anything. It's a number/property (mathematical?) associated with a system's configuration and it is conserved. So it's kind of a constraint on how systems can be configured at an instant. It's like I'm a programmer and I created matter with arbitrary properties (like mass and charge in real world, but different) and I threw an arbitrary number and said configure yourself however you like but a specific relation of the properties of the matter always have to be equal to the arbitrary number. Each movement/change has to account for this.
+
 ## 2025-09-25
 **Geometric interpretation of vector dot product:** Vector dot product can seen as "how much two vectors align with each other," i.e. how much they point in the same direction. A • B = |A||B| (cos of angle between them) can be interpreted as product of magnitude of vector A and the component vector B in the direction of A.
 Greater the result, greater the alignment. if they are perpendicular (cos of angle is 0), no alignment. If -ve, negative alignment, i.e. the component of one in the direction of other is negative.
