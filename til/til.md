@@ -1,3 +1,6 @@
+## 2026-03-21
+**Application of momentum conservation:** I had this misconception that a rocket pushes the air itself to propell itself to space. What actually happens is it pushes the fuel out ejecttimg mass at a very high speed in opposite direction of rocket's motion. The rocket get pushed in opposite direction so that the momentum is conserved.
+
 ## 2026-03-17
 **Center of Mass** (a geometric position) of a system of particles moves as if the mass of the whole system is concentrated at that point. **Force** is redefined as the rate of change of momentum, which is how Newton stated his second law. **Momentum** of a system is **conserved** even though the individual momenta of particles can change inside a closed system. Internal collisions do not change the path of the center of mass unless an external force acts on the system. Total change in momentum is defined to be **Impulse**, which is equivalent to the time integral of the force function from time t1 to t2. **Average force** acting would be defined as **Impulse per unit time.**
 
