@@ -1,3 +1,6 @@
+## 2026-03-23
+**Shaders:** I heard about shaders a lot. They seemed some esoteric concepts. I started learning OpenGl and it turns out they are just tiny programs in GPU pipeline which run simultaneously for lot of objects/vertices/inputs.
+
 ## 2026-03-21
 **Application of momentum conservation:** I had this misconception that a rocket pushes the air itself to propell itself to space. What actually happens is it pushes the fuel out ejecttimg mass at a very high speed in opposite direction of rocket's motion. The rocket get pushed in opposite direction so that the momentum is conserved.
 
