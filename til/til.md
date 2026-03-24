@@ -1,4 +1,4 @@
-## 2026-04-24
+## 2026-03-24
 It makes sense to have **Potential energy reference height** (often set to 0), as it's that exact height from which we start to account for the change in the kinetic energy. During a flight, kinetic energy was always changing but if we only take a subset of that whole motion, we start accounting change in kinetic energy (transfer from kinetic to potential) just for that subset interval.
 
 ## 2026-03-23
