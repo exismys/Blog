@@ -1,5 +1,5 @@
 ## 2026-04-24
-It makes sense to have **Potential energy reference height**, as it's that exact height from which we start to account for the change in the kinetic energy. During a flight, kinetic energy was always changing but if we only take a subset of that whole motion, we start accounting change in kinetic energy (transfer from kinetic to potential) just for that subset interval.
+It makes sense to have **Potential energy reference height** (often set to 0), as it's that exact height from which we start to account for the change in the kinetic energy. During a flight, kinetic energy was always changing but if we only take a subset of that whole motion, we start accounting change in kinetic energy (transfer from kinetic to potential) just for that subset interval.
 
 ## 2026-03-23
 **Shaders:** I heard about shaders a lot. They seemed some esoteric concepts. I started learning OpenGl and it turns out they are just tiny programs in GPU pipeline which run simultaneously for lot of objects/vertices/inputs.
