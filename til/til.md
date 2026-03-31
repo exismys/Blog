@@ -1,3 +1,6 @@
+## 2026-03-27
+**Transformation and Translation:** We can simulate the behavior of moving objects using translation, by mapping the components of translation vector in the forth coloumn of a 4 by 4 transformation matrix. The forth coloumn of the matrix represents homogeneous coordinates which allows us to do translation as a part of transformation achieved by matrix multiplications.
+
 ## 2026-03-24
 It makes sense to have **Potential energy reference height** (often set to 0), as it's that exact height from which we start to account for the change in the kinetic energy. During a flight, kinetic energy was always changing but if we only take a subset of that whole motion, we start accounting change in kinetic energy (transfer from kinetic to potential) just for that subset interval.
 
